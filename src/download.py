@@ -14,10 +14,12 @@ import csv
 state_csv = "state_wise.csv"
 
 class Download:
+    """Download the csv file"""
     def __init__(self):
         pass
 
     def download(url):
+        """do the actual download"""
         # open in binary mode
         with open(state_csv, "wb"):
             # get request
