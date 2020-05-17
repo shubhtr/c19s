@@ -1,0 +1,14 @@
+GtkWindow {
+    color: #ffffff;
+    background-color: #444444;
+}
+
+GtkButton {
+    color: #ffffff;
+    background: #000000;
+}
+
+GtkMenu {
+    color: #ffffff;
+    background-color: #444444;
+}

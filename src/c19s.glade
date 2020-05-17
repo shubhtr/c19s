@@ -29,7 +29,7 @@
                       <object class="GtkLabel" id="label1">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="label" translatable="yes">Total Cases</property>
+                        <property name="label" translatable="yes">Total</property>
                       </object>
                       <packing>
                         <property name="expand">False</property>
@@ -38,11 +38,13 @@
                       </packing>
                     </child>
                     <child>
-                      <object class="GtkLabel" id="lblCasesTotal">
+                      <object class="GtkLabel" id="lblTotal">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
                         <property name="label" translatable="yes">123456</property>
                         <attributes>
+                          <attribute name="weight" value="bold"/>
+                          <attribute name="scale" value="2"/>
                           <attribute name="foreground" value="#fcfcafaf3e3e"/>
                         </attributes>
                       </object>
@@ -70,7 +72,7 @@
                       <object class="GtkLabel" id="label2">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="label" translatable="yes">Active Cases</property>
+                        <property name="label" translatable="yes">Active</property>
                       </object>
                       <packing>
                         <property name="expand">False</property>
@@ -79,11 +81,13 @@
                       </packing>
                     </child>
                     <child>
-                      <object class="GtkLabel" id="lblCasesActive">
+                      <object class="GtkLabel" id="lblActive">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
                         <property name="label" translatable="yes">123456</property>
                         <attributes>
+                          <attribute name="weight" value="bold"/>
+                          <attribute name="scale" value="2"/>
                           <attribute name="foreground" value="#72729f9fcfcf"/>
                         </attributes>
                       </object>
@@ -125,6 +129,8 @@
                         <property name="can_focus">False</property>
                         <property name="label" translatable="yes">123456</property>
                         <attributes>
+                          <attribute name="weight" value="bold"/>
+                          <attribute name="scale" value="2"/>
                           <attribute name="foreground" value="#8a8ae2e23434"/>
                         </attributes>
                       </object>
@@ -166,6 +172,8 @@
                         <property name="can_focus">False</property>
                         <property name="label" translatable="yes">123456</property>
                         <attributes>
+                          <attribute name="weight" value="bold"/>
+                          <attribute name="scale" value="2"/>
                           <attribute name="foreground" value="#adad7f7fa8a8"/>
                         </attributes>
                       </object>
@@ -207,6 +215,8 @@
                         <property name="can_focus">False</property>
                         <property name="label" translatable="yes">123456</property>
                         <attributes>
+                          <attribute name="weight" value="bold"/>
+                          <attribute name="scale" value="2"/>
                           <attribute name="foreground" value="#efef29292929"/>
                         </attributes>
                       </object>
@@ -248,6 +258,22 @@
             <property name="orientation">vertical</property>
             <property name="homogeneous">True</property>
             <child>
+              <object class="GtkBox" id="box10">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="orientation">vertical</property>
+                <child>
+                  <placeholder/>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="padding">10</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
               <object class="GtkBox" id="box8">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
@@ -284,22 +310,6 @@
               <packing>
                 <property name="expand">False</property>
                 <property name="fill">True</property>
-                <property name="position">0</property>
-              </packing>
-            </child>
-            <child>
-              <object class="GtkBox" id="box10">
-                <property name="visible">True</property>
-                <property name="can_focus">False</property>
-                <property name="orientation">vertical</property>
-                <child>
-                  <placeholder/>
-                </child>
-              </object>
-              <packing>
-                <property name="expand">False</property>
-                <property name="fill">True</property>
-                <property name="padding">10</property>
                 <property name="position">1</property>
               </packing>
             </child>
